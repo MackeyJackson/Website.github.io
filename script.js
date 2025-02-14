@@ -76,11 +76,13 @@ button.addEventListener("click", function() {
 });
 
 button2.addEventListener("click", function() {
+    if (block === false){
     image.src = "Cat3.jpg";
     document.getElementById("speech").style.visibility = "Visible"
     document.getElementById("arrow").style.visibility = "hidden"
     document.getElementById("text").textContent = 'yayayayay'
     letter.style.visibility = "Visible"
+    }
 });
 
 letter.addEventListener("click", function() {
