@@ -71,11 +71,12 @@ button:hover{
     transform: translate(55vw, -37vh);
 }
 #letterB{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     visibility: hidden;
-    position: fixed;
     width: 10vh;
-    top: 65%; 
-    left: 50%;
+    transform: translateY(-20vh); 
 }
 #letter{
     visibility: hidden;
