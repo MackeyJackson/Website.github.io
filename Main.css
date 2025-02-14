@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css2?family=Quattrocento);
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+body{
+    overflow: hidden;
+}
+header{
+    font-family: Quattrocento;
+    text-align: center;
+    margin-top: 25vh;
+    font-size: 3vh;
+}
+h1{
+    text-align: center;
+    font-family: Quattrocento;
+    font-size: 6.5vh;
+    margin-top: 0;
+}
+#cat{
+    margin-top: -10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 42vh;
+}
+#Container{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    border-radius: 8px;
+    background-color: white;
+    width: 10vh;
+    height: 5vh;
+    font-family: Roboto;
+    font-size: 3vh;
+}
+#arrow{
+    position: fixed;
+    visibility: hidden;
+    width: 11vh;
+    top: 88%; 
+    left: 50%;
+    transform: translateX(-20vh) rotate(-45deg);
+}
+button:hover{
+    filter: brightness(90%);
+}
+#speech{
+    visibility: hidden;
+    position: fixed;
+    height: 10vh;
+    width: 20vh;
+    transform: translate(55vw, -37vh);
+}
+#text{
+    position: fixed;
+    font-family: roboto;
+    font-weight: bold;
+    height: 10vh;
+    width: 20vh;
+    font-size: 2vh;
+    margin-top: 3vh;
+    margin-left: 3.5vh;
+    transform: translate(55vw, -37vh);
+}
+#letterB{
+    visibility: hidden;
+    position: fixed;
+    width: 10vh;
+    top: 65%; 
+    left: 50%;
+}
+#letter{
+    visibility: hidden;
+    width: 40vh;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
