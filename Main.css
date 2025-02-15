@@ -46,8 +46,8 @@ button{
     margin-left: auto;
     margin-right: auto;
     visibility: hidden;
-    width: 11vh;
-    transform: rotate(215deg);   
+    width: 11vh;    
+    transform: translateY(-7vh) rotate(215deg);  
 }
 button:hover{
     filter: brightness(90%);
